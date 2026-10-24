@@ -1,0 +1,10 @@
+:root { --paper: #F1ECE2; --ink: #1F1B16; --soft: #5E574D; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 640px; margin: 0 auto; padding: 48px 16px 64px; }
+h1 { font-size: 30px; line-height: 1.2; margin: 0 0 4px; }
+h2 { font-size: 19px; margin: 32px 0 6px; }
+p, li { color: var(--ink); }
+.sub { color: var(--soft); margin: 0 0 24px; }
+a { color: var(--ink); }
+footer { margin-top: 40px; color: var(--soft); font-size: 14px; }
